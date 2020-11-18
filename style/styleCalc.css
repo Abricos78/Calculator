@@ -1,0 +1,65 @@
+.calculator {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.input {
+    width: 290px;
+    height: 40px;
+    margin: 0 auto;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.clear {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    margin: 7px 5px;
+}
+
+.clear span {
+    display: block;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 3px 6px;
+    cursor: p;
+}
+
+.result {
+    display: inline;
+    float: right;
+    position: relative;
+    bottom: 47px;
+    right: 5px;
+    font-size: 1.05rem;
+    color: rgb(104, 104, 104);
+}
+
+table {
+    width: 290px;
+    margin: 5px;
+    height: 250px;
+    border-spacing: 10px;
+    position: absolute;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    width: 50px;
+    margin: 10px;
+    font-size: 1.1rem;
+}
+
+td:hover, .clear:hover {
+    background: black;
+    color: white;
+    transition: all .3s;
+}
+
+
